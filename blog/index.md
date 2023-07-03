@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Blog"
+title: 'Blog, 열암이의 기술 블로그'
 description: 아주 가끔씩 관심 분야의 글을 올려요.
 main: true
 project-header: true

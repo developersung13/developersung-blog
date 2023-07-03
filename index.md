@@ -1,18 +1,18 @@
 ---
 layout: default
-title: "Jihye Leee"
+title: '개발농부 성열암 블로그'
 main: true
-subtitle: Digital Product Designer Jihye Leee
-description: Jihye Leee, who is a Digital Product Designer based in Seoul, South Korea. | '이지혜' 디지털 프로덕트 디자이너입니다.
+subtitle: Frontend developersung Yeolam Sung
+description: Yeolam Sung, who is a fontend developer based in Seoul, South Korea. | '성열암' 프론트엔드 개발자입니다.
 ---
+
 <div class="intro-animation">
 <section class="explanation">
+    <p class="tag">@developersung13</p>
     <h1 class="intro">
-    I'm Jihye Leee,
+    성열암
     </h1>
-    <h1 class="intro">a Digital Product Designer.
-    </h1>
-    <h2 class="intro">프로덕트 디자이너 이지혜입니다.</h2>
+    <p class="descTag">자타공인 개발농부 🧑🏻‍🌾</p>
 </section>
 </div>
 {% include resume.html %}
