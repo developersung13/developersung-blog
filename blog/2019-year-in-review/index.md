@@ -7,7 +7,8 @@ blog: true
 text: true
 author: 'Jihye Leee'
 post-header: true
-header-img: 'img/header.jpg'
+intro-img: '2019-year-in-review/img/about.jpg'
+header-img: 'img/about.jpg'
 order: 0
 ---
 

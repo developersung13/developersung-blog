@@ -3,9 +3,6 @@ layout: default
 work: true
 main: true
 title: Project, 개발에 참여한 프로젝트
-description: 지금까지 작업한 프로젝트
-project-header: true
-header-img: 'img/project_bg.jpg'
 ---
 
 <div class="catalogue">

@@ -19,6 +19,12 @@
     margin-bottom: 10px;
   }
 
+  a {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
   &-info {
     display: inline-block;
 
@@ -62,6 +68,16 @@
 
     p.catalogue-sub {
       font-size: 18px;
+      line-height: 1.75;
+      padding-bottom: 4px;
+
+      @media (max-width: $break-small) {
+        font-size: 16px;
+      }
+    }
+
+    p.catalogue-date {
+      font-size: 18px;
       color: $grey-1;
       line-height: 1.75;
       padding-bottom: 24px;
@@ -74,6 +90,29 @@
     p.catalogue-body {
       font-size: 16px;
       color: $grey-1;
+    }
+  }
+
+  &-img {
+    border-radius: 5px !important;
+    width: 220px;
+    height: 220px;
+    margin: 0 30px;
+    object-fit: cover;
+
+    @media (max-width: $break-large) {
+      width: 180px;
+      height: 180px;
+      margin: 10.375 30px !important;
+    }
+
+    @media (max-width: $break-medium) {
+      width: 140px;
+      height: 140px;
+    }
+
+    @media (max-width: $break-small) {
+      display: none;
     }
   }
 
