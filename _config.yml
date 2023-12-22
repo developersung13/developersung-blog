@@ -22,6 +22,11 @@ author:
   github: developersung13
   twitter: developersung
 
+  # Comment
+disqus:
+  comments: true
+  shortname: blog
+
 # Custom vars
 version: 3.4.1
 github:

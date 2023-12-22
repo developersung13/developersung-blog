@@ -10,6 +10,7 @@ author: 'Yeolam Sung'
 post-header: true
 intro-img: 'sqld-retrospection/img/about.jpg'
 header-img: 'img/about.jpg'
+comments: true
 order: 1
 ---
 
