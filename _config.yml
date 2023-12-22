@@ -16,16 +16,11 @@ markdown: kramdown
 
 # About
 author:
-  name: Yeolam Sung
+  name: developersung
   url: https://developersung13.com/
   email: developersung13
   github: developersung13
   twitter: developersung
-
-  # Comment
-disqus:
-  comments: true
-  shortname: blog
 
 # Custom vars
 version: 3.4.1

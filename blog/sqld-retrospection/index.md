@@ -2,7 +2,7 @@
 layout: post
 title: 'SQLD(SQL Developer) 취득까지'
 subtitle: '실전 문제집은 꼭 풀어보자'
-date: '2023-12-19'
+date: '2023-12-22'
 type: 'Certification'
 blog: true
 text: true
