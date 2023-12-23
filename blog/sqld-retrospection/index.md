@@ -8,6 +8,7 @@ blog: true
 text: true
 author: 'Yeolam Sung'
 post-header: true
+post-footer: true
 intro-img: 'sqld-retrospection/img/about.jpg'
 header-img: 'img/about.jpg'
 comments: true

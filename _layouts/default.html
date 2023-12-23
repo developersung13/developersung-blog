@@ -35,6 +35,8 @@
             {% include share.html %}
         {% endif %} -->
 
+        {% if page.comments %} {% include disqus.html %} {% endif %}
+
     </main>
       
     {% include footer.html %}

@@ -49,9 +49,9 @@ layout: default
   {% endif %}
 
   <!--큐레이션 영역-->
-  {{ content }} {% if page.comments %} {% include disqus.html %} {% endif %} {%
-  if page.book == true %} {% if page.ridibooks == true %} {% for book-list in
-  site.data[page.data-name] %}
+  {{ content }} {% if page.post-footer == true %} {% include post-footer.html %}
+  {% endif %} {% if page.book == true %} {% if page.ridibooks == true %} {% for
+  book-list in site.data[page.data-name] %}
   <a
     href="https://ridibooks.com/books/{{ book-list.bookid }}"
     target="_blank"

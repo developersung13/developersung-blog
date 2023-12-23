@@ -1,23 +1,24 @@
 ---
 layout: post
-author: "Jihye Leee"
-title:  "리디북스 서점 홈 개편"
-subtitle: "오랫동안 홈에 존재해 온 문제들을 해결하기 위한 프로젝트"
-type: "RIDIBOOKS"
+author: 'Jihye Leee'
+title: '리디북스 서점 홈 개편'
+subtitle: '오랫동안 홈에 존재해 온 문제들을 해결하기 위한 프로젝트'
+type: 'RIDIBOOKS'
 projects: true
 text: true
 ridi: true
 portfolio: true
 post-header: true
-header-img: "img/header.jpg"
-main-img: "img/store_improvement.jpg"
-role-title: "프로덕트 디자이너"
-role-specific: "User Flows, Sketching, Wireframing, Visual Design, Interaction, Prototyping"
-team: "프로덕트 디자이너 1명, PM 1명, 엔지니어 4-5명"
-platforms: "Web"
-date: "Dec 2018 - Mar 2019"
+header-img: 'img/header.jpg'
+main-img: 'img/store_improvement.jpg'
+role-title: '프로덕트 디자이너'
+role-specific: 'User Flows, Sketching, Wireframing, Visual Design, Interaction, Prototyping'
+team: '프로덕트 디자이너 1명, PM 1명, 엔지니어 4-5명'
+platforms: 'Web'
+date: 'Dec 2018 - Mar 2019'
 order: 2
 ---
+
 # Overview
 
 [리디북스 서점](https://ridibooks.com/)은 전자책부터 웹툰, 웹소설까지 다양한 장르의 콘텐츠를 탐색하고 구매할 수 있는 공간이다. 특히 일반, 로맨스, 판타지, 만화, BL 모든 장르 홈은 사용자가 제일 많이 방문하는 페이지이기 때문에 리디북스에 있어서 얼굴과 같은 중요한 페이지다. 홈은 전체적인 구조를 바꾸지 않고 부분부분 개선해 왔기 때문에 크고 작은 문제들이 존재해 왔다.
@@ -171,6 +172,7 @@ order: 2
 리디북스에는 각기 다른 여러 장르가 있다 보니 개선을 할 때, 한 장르에 최적화된 디자인을 하긴 어렵다. 하지만 표지 크기를 다시 이전 크기로 돌렸을 때 크게 불편하게 느낄 타 장르 사용자는 많지 않을 거라는 판단 아래, 다시 기존 평균값 크기로 표지를 줄여서 문제를 해결하게 되었다.
 
 # 마치며
+
 리디북스 서점 홈 개편 이후 제일 사용자가 많은 BL 홈의 GA를 배포 전 한 달과 배포 후에 한 달을 비교 해 본 결과[^3], PV는 두 배가량, UV는 약 8% 증가한 것을 확인할 수 있었다. 이탈률도 3.88%에서 1.14%로 줄어들었다. 하지만 개편이 배포된 시점이 연말인 12월이고, 12월에는 모든 장르에서 할인 같은 다양한 이벤트가 열리기 때문에 단순히 홈 개편만으로 수치가 늘었다고 장담하긴 어렵다. 콘텐츠 서비스는 킬러 콘텐츠나 바이럴되는 이벤트의 영향을 많이 받는다. 이렇게 서비스의 영향을 주는 큰 변수를 발라내어 디자인 개선만으로 성과를 측정하기가 쉽지 않다. 그럼에도 불구하고 데이터로 성과를 측정할 수 있는 방법을 찾아야 장기적으로 서비스가 올바른 방향으로 성장할 수 있으리라 생각한다.
 
 리디북스 서점 홈 개편은 리디북스 서점을 반응형 웹으로, 즉 모바일과 데스크톱을 하나의 구조로 전환하기 위해 첫 번째로 진행된 프로젝트였다. 장기적으로는 서점을 모바일 앱에 내장시키기 위한 한 걸음이었다. 사용자 입장에서는 매우 큰 변화였지만, 내부적으로 봤을 땐 변화의 시작이었다. 앞으로 홈 외에 수많은 페이지들을 하나씩 개선하며 반응형 웹으로 전환해 나가야 한다.

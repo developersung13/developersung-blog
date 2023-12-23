@@ -1,4 +1,4 @@
-//post header
+// post header
 
 .post-header {
   background-position: center center;
@@ -17,7 +17,7 @@
   background-color: $grey-2;
 }
 
-//post 영역
+// post 영역
 
 .post {
   padding-bottom: 40px;
@@ -371,6 +371,105 @@ sup {
     font-size: 16px;
     letter-spacing: 0.4px;
     color: $grey-1;
+  }
+}
+
+// comment
+
+.comments {
+  margin: 20px 0 50px;
+}
+
+// post-footer
+
+.post-footer {
+  display: flex;
+  align-items: center;
+
+  margin: 70px 0 0 0;
+  padding: 20px 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+
+  @media (max-width: $break-small) {
+    flex-wrap: wrap;
+  }
+
+  .image {
+    padding: 10px;
+
+    img {
+      margin: 0;
+      width: 80px;
+    }
+  }
+
+  .profile {
+    width: 17.5%;
+    padding: 0 10px;
+
+    p {
+      margin: 0;
+      line-height: 1.75;
+    }
+
+    .id {
+      color: $orange;
+      font-size: 0.8em;
+      font-family: $custom-font;
+      font-weight: 500;
+    }
+
+    .name {
+      font-family: $custom-font;
+      font-size: 1.1em;
+      font-weight: bold;
+      line-height: 1.17;
+
+      @media (max-width: $break-small) {
+        font-size: 0.9em;
+      }
+    }
+
+    .nickname {
+      font-family: $custom-font;
+      font-size: 0.9em;
+
+      @media (max-width: $break-small) {
+        font-size: 0.7em;
+      }
+    }
+
+    @media (max-width: $break-medium) {
+      width: 25%;
+    }
+
+    @media (max-width: $break-semi-medium) {
+      width: 30%;
+    }
+
+    @media (max-width: $break-semi-small) {
+      width: 40%;
+    }
+
+    @media (max-width: $break-narrow) {
+      width: 42.5%;
+    }
+  }
+
+  .description {
+    padding: 0 10px;
+
+    p {
+      margin: 0;
+      line-height: 1.5;
+      font-size: 0.9em;
+      font-weight: 500;
+    }
+
+    @media (max-width: $break-small) {
+      font-size: 0.7em;
+      margin-top: 7.5px;
+    }
   }
 }
 
