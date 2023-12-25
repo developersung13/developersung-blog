@@ -15,7 +15,7 @@ comments: true
 order: 1
 ---
 
-지난달에 [한국데이터산업진흥원에서](https://www.dataq.or.kr/www/main.do){:target="\_blank"} 주관하는 **제51회 [SQL 개발자(SQLD)](https://www.dataq.or.kr/www/sub/a_04.do){:target="\_blank"}시험**을 치르고 왔다.
+지난달에 한국데이터산업진흥원에서 주관하는 제51회 SQL 개발자(SQLD) 시험을 치르고 왔다.
 
 18년도에 이미 한 번 응시한 경험이 있어서 이번만큼은 기필코 붙어야만 했다. 공식 학습 교재의 가격도 한몫 했다고 볼 수 있다.
 
