@@ -12,7 +12,8 @@ layout: null
     </url>
   {% endfor %}
   {% for page in site.pages %}
-    {% if page.sitemap.exclude != true and page.url != "/sitemap.xml" and page.url != "/styles.css" %}
+    {% assign excluded_urls = "/sitemap.xml, /styles.css" | split: ", " %}
+    {% if page.sitemap.exclude != true and excluded_urls contains page.url %}
       <url>
         <loc>{{ site.url }}{{ page.url }}</loc>
         <lastmod>{{ page.last_modified_at | date_to_xmlschema }}</lastmod>
