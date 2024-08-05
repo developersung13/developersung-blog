@@ -4,7 +4,7 @@ permalink: /:year-:month-:day/:title
 # Setup
 title: Yeolam Sung
 baseurl: ''
-url: 'https://www.developersung13.com'
+url: 'https://blog.developersung.com'
 
 # Assets
 sass:
