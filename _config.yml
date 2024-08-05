@@ -26,3 +26,8 @@ author:
 version: 3.4.1
 github:
   repo: https://github.com/developersung13/developersung13.github.io
+
+# Plugins
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
