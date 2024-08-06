@@ -1,5 +1,5 @@
 current directory: /Users/seong-yeol-am/Documents/workspace/developersung13.github.io/vendor/bundle/ruby/2.6.0/gems/strscan-3.1.0/ext/strscan
-/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/bin/ruby -I /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0 -r ./siteconf20240805-30885-9w5d67.rb extconf.rb
+/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/bin/ruby -I /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0 -r ./siteconf20240806-18983-1ozlxdq.rb extconf.rb
 checking for onig_region_memsize() in ruby.h... yes
 checking for rb_reg_onig_match() in ruby.h... no
 creating Makefile
@@ -46,4 +46,4 @@ ld: warning: search path '/AppleInternal/Library/BuildRoots/c496718d-33c1-11ef-b
 
 current directory: /Users/seong-yeol-am/Documents/workspace/developersung13.github.io/vendor/bundle/ruby/2.6.0/gems/strscan-3.1.0/ext/strscan
 make "DESTDIR=" install
-/usr/bin/install -c -m 0755 strscan.bundle ./.gem.20240805-30885-16qehli
+/usr/bin/install -c -m 0755 strscan.bundle ./.gem.20240806-18983-4b0qig

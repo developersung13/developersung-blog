@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Next.js 14 갑자기 CSS 적용이 안 된다면?'
+title: 'Next.js 갑자기 CSS 적용이 안 된다면?'
 subtitle: '.next 디렉토리를 제거해 보자'
 date: '2024-08-05'
 type: 'Next.js'
@@ -47,7 +47,8 @@ yarn run build
 ## `build`를 통해 생성된 `.next` 디렉토리를 제거
 
 ```sh
-rm -rf .next
+rm -rf .next # 프로젝트의 루트 디렉토리에서 명령 입력
+yarn run dev # 또는 npm run dev 명령으로 개발 서버 실행
 ```
 
 <br />
