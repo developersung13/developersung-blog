@@ -1,7 +1,8 @@
 - name: Next.js
 - name: React
-- name: Express
+- name: React Query
+- name: Zustand
+- name: Storybook
 - name: TypeScript
-- name: JavaScript
 - name: Android
 - name: Java
