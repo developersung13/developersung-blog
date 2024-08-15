@@ -9,8 +9,8 @@ text: true
 author: 'Yeolam Sung'
 post-header: true
 post-footer: true
-intro-img: 'nextjs-css-not-applied/img/about.png'
-header-img: 'img/about.png'
+intro-img: 'nextjs-css-not-applied/img/header.png'
+header-img: 'img/header.png'
 comments: true
 order: 3
 ---
@@ -26,11 +26,11 @@ order: 3
 <a name="vercel-bot-image"></a>
 ![vercel bot in pr](img/img2.png){: width="800"}
 
-따라서 PR을 생성하기 이전에 로컬 환경에서 프로젝트를 미리 빌드해 보는데, 어째선가 하단의 [이미지](#about)와 같이
+따라서 PR을 생성하기 이전에 로컬 환경에서 프로젝트를 미리 빌드해 보는데, 어째선가 하단의 [이미지](#header)와 같이
 **CSS가 홈페이지 전반에 걸쳐 갑작스레 적용되지 않는 것이다**. 🫨
 
-<a name="about"></a>
-![about](img/about.png){: width="600"}
+<a name="header"></a>
+![header](img/header.png){: width="600"}
 
 ## 빌드 시 사용한 명령어
 

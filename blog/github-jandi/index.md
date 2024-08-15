@@ -9,8 +9,8 @@ text: true
 author: 'Yeolam Sung'
 post-header: true
 post-footer: true
-intro-img: 'github-jandi/img/about.png'
-header-img: 'img/about.png'
+intro-img: 'github-jandi/img/header.png'
+header-img: 'img/header.png'
 comments: true
 order: 2
 ---
