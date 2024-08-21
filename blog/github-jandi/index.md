@@ -1,6 +1,6 @@
 ---
 layout: post
-title: '깃헙(GitHub) 잔디색은 바뀐다는 사실을 알고 있는가?'
+title: '깃헙 잔디색은 바뀐다는 사실을 알고 있는가?'
 subtitle: '지금부터 시작해 보는 건 어떨까 😉'
 date: '2023-12-25'
 type: 'GitHub'
