@@ -28,7 +28,7 @@ div.resume-info {
     border-top: 1px solid rgba(0, 0, 0, 0.07);
 
     .workplace-name {
-      font-family: $san-serif;
+      font-family: $source;
       font-size: 20px;
       font-weight: 700;
       width: 42%;
@@ -120,8 +120,8 @@ section.skill {
 
   li.skill_name:nth-child(1),
   li.skill_name:nth-child(2) {
-    color: $purple;
-    border: 1px solid $purple;
+    color: $orange;
+    border: 1px solid $orange;
   }
 }
 
