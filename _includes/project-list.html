@@ -7,7 +7,16 @@
     {% endif %}
     <p class="project-platform">{{ page.type }}</p>
     <div class="project-info transition">
-      <h1 class="project-title">{{ page.title }}</h1>
+      {% if page.link %}
+      <a
+        target="_blank"
+        href="{{ page.link }}"
+        class="project-title include-url"
+        >{{ page.title }}</a
+      >
+      {% else %}
+      <a class="project-title">{{ page.title }}</a>
+      {% endif %}
       <p class="project-sub">{{ page.subtitle }}</p>
       <p class="project-date">{{ page.date }}</p>
       <p class="project-body">

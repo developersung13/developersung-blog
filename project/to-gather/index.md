@@ -22,5 +22,5 @@ experiences:
     '토스트 UI 도입을 통해 UX 개선',
   ]
 major-skills: ['Android', 'Java']
-order: 1
+order: 2
 ---

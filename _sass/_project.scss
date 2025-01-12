@@ -46,7 +46,8 @@
       }
     }
 
-    h1.project-title {
+    a.project-title {
+      width: fit-content;
       color: $grey-0;
       display: block;
       font-family: $source;
@@ -59,6 +60,16 @@
       @media (max-width: $break-small) {
         font-size: 22px;
       }
+    }
+
+    a.include-url {
+      text-decoration: underline;
+      text-underline-offset: 5px;
+      transition: opacity 0.175s ease;
+    }
+
+    a.include-url:hover {
+      opacity: 0.6;
     }
 
     @media (max-width: $break-medium) {
