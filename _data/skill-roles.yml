@@ -2,7 +2,6 @@
 - name: React
 - name: React Query
 - name: Zustand
-- name: Storybook
 - name: TypeScript
 - name: Android
 - name: Java

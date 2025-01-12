@@ -1,43 +1,36 @@
-<li class="workplace transition">
-  {% for first in site.data.experience.first-place %}
-  <p class="workplace-name">{{ first.name }}</p>
-  <div class="work-info">
-    <p>{{ first.role }}</p>
-    <p class="work-sub-info">{{ first.date }}</p>
-    <p class="work-skill">
-      <span>#{{ first.skill_1 }}</span>
-      <span>#{{ first.skill_2 }}</span>
-    </p>
-  </div>
-  {% endfor %}
-</li>
+<li class="project-item">
+  <div>
+    {% if page.portfolio == true %}
+    <img src="{{ page.main-img }}" class="project-img" />
+    {% endif %} {% if page.draft == true %}
+    <span class="project-tag"> Coming Soon </span>
+    {% endif %}
+    <p class="project-platform">{{ page.type }}</p>
+    <div class="project-info transition">
+      <h1 class="project-title">{{ page.title }}</h1>
+      <p class="project-sub">{{ page.subtitle }}</p>
+      <p class="project-date">{{ page.date }}</p>
+      <p class="project-body">
+        {{ page.content | truncatewords: 24 | strip_html }}
+      </p>
 
-<!-- <li class="workplace transition">
-  {% for fourth in site.data.experience.fourth-place %}
-  <p class="workplace-name">{{ fourth.name }}</p>
-  <div class="work-info">
-    <p>{{ fourth.role }}</p>
-    <p class="work-sub-info">{{ fourth.date }}</p>
-  </div>
-  {% endfor %}
-</li>
+      {% if page.experiences %}
+      <ul class="project-experiences">
+        {% for experience in page.experiences %}
+        <li class="experience">{{ experience }}</li>
+        {% endfor %}
+      </ul>
 
-<li class="workplace transition">
-  {% for third in site.data.experience.third-place %}
-  <p class="workplace-name">{{ third.name }}</p>
-  <div class="work-info">
-    <p>{{ third.role }}</p>
-    <p class="work-sub-info">{{ third.date }}</p>
+      {% endif %} {% if page.major-skills or page.minor-skills %}
+      <ul class="project-skills">
+        {% if page.major-skills %} {% for skill in page.major-skills %}
+        <li class="major-skill">{{ skill }}</li>
+        {% endfor %} {% endif %} {% if page.minor-skills %} {% for skill in
+        page.minor-skills %}
+        <li class="minor-skill">{{ skill }}</li>
+        {% endfor %} {% endif %}
+      </ul>
+      {% endif %}
+    </div>
   </div>
-  {% endfor %}
 </li>
-
-<li class="workplace transition">
-  {% for second in site.data.experience.second-place %}
-  <p class="workplace-name">{{ second.name }}</p>
-  <div class="work-info">
-    <p>{{ second.role }}</p>
-    <p class="work-sub-info">{{ second.date }}</p>
-  </div>
-  {% endfor %}
-</li> -->
