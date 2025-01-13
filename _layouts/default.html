@@ -35,14 +35,24 @@
             {% include share.html %}
         {% endif %} -->
 
-        {% if page.comments %} <script
-        src="https://utteranc.es/client.js"
-        repo="developersung13/developersung13.github.io"
-        issue-term="pathname"
-        theme="github-light"
-        crossorigin="anonymous"
-        async
-      ></script> {% endif %}
+        {% if page.comments %} 
+        <script src="https://giscus.app/client.js"
+            data-repo="developersung13/developersung-blog"
+            data-repo-id="R_kgDOJ2muLQ"
+            data-category="General"
+            data-category-id="DIC_kwDOJ2muLc4Cl9XO"
+            data-mapping="pathname"
+            data-strict="0"
+            data-reactions-enabled="1"
+            data-emit-metadata="0"
+            data-input-position="bottom"
+            data-theme="preferred_color_scheme"
+            data-lang="ko"
+            data-loading="lazy"
+            crossorigin="anonymous"
+            async>
+        </script>
+       {% endif %}
 
         <!-- {% if page.comments %} {% include disqus.html %} {% endif %} -->
 
