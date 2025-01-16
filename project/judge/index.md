@@ -15,7 +15,7 @@ role-title: '프로덕트 디자이너'
 role-specific: 'User flows, Sketching, Wireframing, Visual Design, Interaction, Prototyping'
 team: '프로덕트 디자이너 1명, 엔지니어 1명'
 platforms: 'iOS & Android'
-date: '2024.03 ~'
+date: '2023.08 ~'
 experiences:
   [
     'PC, 모바일 디바이스 환경 지원을 위한 반응형 웹 개발',

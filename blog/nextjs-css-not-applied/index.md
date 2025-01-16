@@ -1,16 +1,15 @@
 ---
 layout: post
 title: 'Next.js 갑자기 CSS 적용이 안 된다면?'
-subtitle: '.next 디렉토리를 제거해 보자'
-date: '2024-08-05'
-type: 'Next.js'
+introduce: 'Next.js와 Vercel로 공동 구독 플랫폼을 개발하며, CSS 깨짐 문제를 해결한 경험을 들려드릴게요.'
+date: '2024년 8월 5일'
 blog: true
 text: true
 author: 'Yeolam Sung'
 post-header: true
 post-footer: true
-intro-img: 'nextjs-css-not-applied/img/header.png'
-header-img: 'img/header.png'
+intro-img: 'nextjs-css-not-applied/img/pallete.png'
+header-img: 'img/pallete.png'
 comments: true
 order: 3
 ---
