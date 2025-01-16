@@ -61,9 +61,13 @@
 
         <!-- {% if page.comments %} {% include disqus.html %} {% endif %} -->
 
+      {% if current[1] == "blog" %}
+      <p class="toss-copyright">이 페이지에는 토스팀에서 제공한 <a target="_blank" href="https://toss.im/tossface">토스페이스</a>가 적용되어 있습니다.</p>
+      {% endif %}
     </main>
       
     {% include footer.html %}
+    
    
   </body>
   <!-- Google Tag Manager (noscript) -->

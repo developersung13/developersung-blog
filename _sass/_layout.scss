@@ -15,11 +15,27 @@
 main,
 footer > .footer_wrap,
 .nav-container {
-  margin: 0 auto;
+  margin: 72px auto;
   max-width: 720px;
   width: 80%;
   @media (max-width: $break-small) {
     width: 88%;
+  }
+}
+
+.toss-copyright {
+  margin-bottom: -2rem;
+  color: #808080;
+  font-size: 13px;
+
+  a {
+    text-decoration: underline;
+    font-size: inherit;
+    color: #3183f6;
+  }
+
+  a:hover {
+    color: #3262d2;
   }
 }
 
