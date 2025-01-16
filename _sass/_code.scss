@@ -1,14 +1,14 @@
 pre,
 code {
-  font-family: $monospaced-font;
+  font-family: $monospaced-font; // 모노스페이스 폰트
 }
 
 code {
-  background-color: $grey-4;
-  border-radius: 3px;
-  color: $orange;
-  font-size: 85%;
-  padding: 0.2em 0.4em;
+  background-color: #f6f8fa; // GitHub 스타일 배경색
+  border-radius: 4px; // 약간 둥근 모서리
+  color: #24292e; // 기본 텍스트 색상
+  font-size: 85%; // 약간 작은 폰트 크기
+  padding: 0.2em 0.4em; // 안쪽 여백
 }
 
 pre {
@@ -16,32 +16,30 @@ pre {
 }
 
 pre code {
-  background-color: transparent;
+  background-color: transparent; // pre 내부에서 투명 처리
   color: inherit;
-  font-size: 100%;
+  font-size: 100%; // 기본 폰트 크기
   padding: 0;
-  font-size: 16px;
+  font-size: 16px; // 가독성을 위한 크기
 }
 
 .highlight {
-  background-color: $grey-3;
-  border: 1px solid $grey-2-70;
-  border-radius: 3px;
-  line-height: 1.4;
+  background-color: #f6f8fa !important; // GitHub 배경색
+  border-radius: 8px; // 테두리 둥글게
+  line-height: 1.6; // 가독성을 위한 줄 간격
   margin: 0 0 1rem;
-  padding: 1rem;
+  padding: 0.25rem;
 
   pre {
     margin-bottom: 0;
-    overflow-x: auto;
+    overflow-x: auto; // 가로 스크롤 활성화
   }
 
   .lineno {
-    color: $default-tint;
-    display: inline-block; // Ensures the null space also isn't selectable
+    color: #b0b9c3; // GitHub 스타일 라인 번호 색상
+    display: inline-block;
     padding: 0 0.75rem 0 0.25rem;
-    // Make sure numbers aren't selectable
-    -webkit-user-select: none;
+    -webkit-user-select: none; // 선택 불가
     -moz-user-select: none;
     user-select: none;
   }

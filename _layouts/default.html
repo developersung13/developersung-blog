@@ -1,7 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
-
+    
   {% include head.html %}
+
+  <head>
+    <!-- Rouge GitHub CSS 파일 로드 -->
+    <link rel="stylesheet" href="{{ '/assets/css/rouge-github.css' | relative_url }}">
+  </head>
 
   <body>
       {% assign current = page.url | downcase | split: '/' %}

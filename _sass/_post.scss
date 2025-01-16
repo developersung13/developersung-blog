@@ -404,7 +404,7 @@ sup {
   }
 
   .profile {
-    width: 17.5%;
+    width: 20%;
     padding: 0 10px;
 
     p {
@@ -415,12 +415,12 @@ sup {
     .id {
       color: $orange;
       font-size: 0.8em;
-      font-family: $custom-font;
+      font-family: $source;
       font-weight: 500;
     }
 
     .name {
-      font-family: $custom-font;
+      font-family: $source;
       font-size: 1.1em;
       font-weight: bold;
       line-height: 1.17;
@@ -431,7 +431,7 @@ sup {
     }
 
     .nickname {
-      font-family: $custom-font;
+      font-family: $source;
       font-size: 0.9em;
 
       @media (max-width: $break-small) {

@@ -6,18 +6,16 @@
       {% endif %} {% if page.draft == true %}
       <span class="catalogue-tag"> Coming Soon </span>
       {% endif %}
-      <p class="catalogue-type">{{ page.type }}</p>
-      <div class="catalogue-info transition">
-        <h1 class="catalogue-title">{{ page.title }}</h1>
-        <p class="catalogue-sub">{{ page.subtitle }}</p>
+      <div class="catalogue-info">
+        <h1 class="catalogue-title transition">{{ page.title }}</h1>
+        <p class="catalogue-introduce">{{ page.introduce }}</p>
         <p class="catalogue-date">{{ page.date }}</p>
-        <p class="catalogue-body">
-          {{ page.content | truncatewords: 24 | strip_html }}
-        </p>
       </div>
     </div>
     {% if page.blog == true %}
-    <img class="catalogue-img" src="{{ page.intro-img }}" />
+    <div class="catalogue-img-container">
+      <img class="catalogue-img" src="{{ page.intro-img }}" />
+    </div>
     {% endif %}
   </a>
 </li>
