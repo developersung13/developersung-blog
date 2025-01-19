@@ -11,7 +11,7 @@ post-footer: true
 intro-img: 'cannot-open-docker-in-mac-os/img/whale.png'
 header-img: 'img/whale.png'
 comments: true
-order: 5
+order: 4
 ---
 
 맥북으로 `macOS`를 2년 가까이 사용해오며, 개발 환경을 사용하는 과정에서 다양한 시행착오가 있었고, 이번에 소개드릴 `Docker` 또한 그중 하나이다.
