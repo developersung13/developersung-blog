@@ -15,6 +15,9 @@ layout: null
     {% if page.sitemap.exclude != true and page.url != "/sitemap.xml" and page.url != "/styles.css" %}
       <url>
         <loc>{{ site.url }}{{ page.url }}</loc>
+        <lastmod>{{ page.last_modified_at | date_to_xmlschema }}</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.5</priority>
       </url>
     {% endif %}
   {% endfor %}
