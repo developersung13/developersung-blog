@@ -1,19 +1,14 @@
 ---
-layout: post
 author: 'Yeolam Sung'
 title: 'BUDDY'
 subtitle: '멀티 OTT 플랫폼 공동 구독 서비스'
 type: 'Web'
 projects: true
-text: true
-ridi: true
 portfolio: true
 post-header: true
 main-img: 'img/buddy.png'
 role-title: '프로덕트 디자이너'
-role-specific: 'User flows, Sketching, Wireframing, Visual Design, Interaction, Prototyping'
 team: '프로덕트 디자이너 1명, 엔지니어 1명'
-platforms: 'iOS & Android'
 date: '2024.03 - 2024.11'
 experiences:
   [

@@ -1,20 +1,14 @@
 ---
-layout: post
 author: 'Yeolam Sung'
 title: 'Judge'
 link: 'https://swjudge.cbnu.ac.kr/'
 subtitle: '충북 도내 대학 재학생들을 위해 개발된 OJ(Online Judge) 플랫폼'
 type: 'Web'
 projects: true
-text: true
-ridi: true
 portfolio: true
-post-header: true
 main-img: 'img/judge.png'
 role-title: '프로덕트 디자이너'
-role-specific: 'User flows, Sketching, Wireframing, Visual Design, Interaction, Prototyping'
 team: '프로덕트 디자이너 1명, 엔지니어 1명'
-platforms: 'iOS & Android'
 date: '2023.08 ~'
 experiences:
   [

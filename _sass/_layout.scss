@@ -15,7 +15,7 @@
 main,
 footer > .footer_wrap,
 .nav-container {
-  margin: 72px auto;
+  margin: 0 auto;
   max-width: 720px;
   width: 80%;
   @media (max-width: $break-small) {
@@ -102,6 +102,7 @@ footer {
   color: $default-tint;
   border-top: 1px solid $grey-2;
   border-bottom: 1px solid $grey-2;
+  margin-top: 72px;
 
   .footer_wrap {
     font-style: normal;
