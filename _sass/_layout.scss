@@ -17,6 +17,7 @@ footer > .footer_wrap,
 .nav-container {
   margin: 0 auto;
   max-width: 720px;
+  font-weight: 600;
   width: 80%;
   @media (max-width: $break-small) {
     width: 88%;
@@ -77,16 +78,17 @@ ul {
 }
 
 .active {
-  padding-bottom: 6px;
-  border-bottom: 2px solid $grey-0;
-  font-weight: 700;
+  font-weight: 800;
+  padding-bottom: 1px;
+  border-bottom: 2px solid black;
+
   color: $grey-0;
 }
 
 .normal {
-  font-weight: 500;
-  border-style: none;
-  padding-bottom: 0;
+  // font-weight: 900;
+  // border-style: none;
+  // padding-bottom: 0;
 }
 
 a {
