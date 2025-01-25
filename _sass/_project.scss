@@ -79,6 +79,7 @@
     p.project-sub {
       font-size: 16px;
       line-height: 1.75;
+      font-weight: normal;
 
       @media (max-width: $break-small) {
         font-size: 16px;
@@ -89,6 +90,7 @@
       font-size: 16px;
       color: $grey-1;
       line-height: 1.75;
+      font-weight: normal;
 
       @media (max-width: $break-small) {
         font-size: 16px;
@@ -107,6 +109,7 @@
 
       li.experience {
         font-size: 15px;
+        font-weight: normal;
       }
     }
 
@@ -121,6 +124,7 @@
         border-radius: 100px;
         border: solid 1px $grey-2;
         font-size: 13px;
+        font-weight: normal;
         margin: 0 8px 14px 0;
       }
 
